@@ -21,7 +21,8 @@
     "type-check": "tsc --noEmit",
     "lint": "npm run type-check && eslint --ext ts ./src",
     "lint-with-fix": "eslint --ext ts --fix ./src",
-    "test": "jest --coverage --onlyChanged",
+    "test": "jest --onlyChanged",
+    "test:cov": "jest --coverage",
     "prepublishOnly": "npm run build"
   },
   "publishConfig": {
