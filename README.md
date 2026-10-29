@@ -22,9 +22,3 @@ npm install @sqrtthree/pagination
 #### paginateWithCursor(data, options?: { maxLimit?: number })
 
 @return { cursor: string | number, limit: number = 10 }
-
----
-
-> [sqrtthree.com](http://sqrtthree.com/) &nbsp;&middot;&nbsp;
-> GitHub [@sqrthree](https://github.com/sqrthree) &nbsp;&middot;&nbsp;
-> Twitter [@sqrtthree](https://twitter.com/sqrtthree)
